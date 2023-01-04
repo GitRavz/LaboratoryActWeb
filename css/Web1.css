@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Logo Part*/
+.logo-section{
+    text-align: center;
+    margin-right: 90px;
+}
+.logo-section h1{
+    margin: -62px 0 0 250px;
+}
+/*Item Display section*/
+.item-section fieldset{
+    width: 1235px;
+    height: 290px;
+    margin: 10px 65px;
+    padding: 5px  15px 15px;
+    background-color: rgba(60, 111, 60, 0.22);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0  0 18px #888888;     
+}
+.item-section legend{
+    font-weight: bold;
+    font-family: 'Grechen Fuemen';
+    font-size: 29px; 
+    color: black; 
+}
+.item-section img{
+    width: 105px;
+    height: 83px; 
+    border-radius: 10px; 
+}
+.item-section .product{
+    display: flex;
+    flex-wrap: wrap;
+}
+.product label{
+    margin: 0 0 10px 10px;
+    border: 2px solid white;
+    border-radius: 10px; 
+    cursor: pointer;  
+}
+.product label:hover{
+    border: 2px solid #2E1402;
+    background-color: #2E1402;
+    color: white;
+}
+.item-section p{
+    text-align: center;
+    font-family: 'Amaranth';
+    font-size: 16px;
+}
+.product [type="checkbox"]{
+    margin: -95px 20px 23px 0;
+    position: absolute;
+}
+/*order & summary form section*/
+.order-detail fieldset{
+    background-color: rgba(255, 255, 255, 0.4);
+    border: none;
+    width: 742px;
+    height: 255px;
+    margin: 20px 0 40px 10px;  
+    border-radius: 10px;  
+}
+.order-detail legend{
+    font-weight: bold;
+    font-family: 'Grechen Fuemen';
+    font-size: 29px;
+    margin-left: 30px;
+}
+.order-detail label{
+    width: 170px;
+    display: inline-block;
+    margin: 15px 0 0 10px;
+    font-size: 16px;
+}
+.order-detail input{
+    margin: 5px;
+    font-size: 16px;
+    width: 160px;
+}
+.order-detail .detail2{
+    margin: -200px 0 0 370px;
+}
+/*Button section*/
+.button{
+    margin: -250px 770px;
+}
+.button button{
+    width: 100px;
+    display: block;
+    color: black;
+    background-color: #D0B8A8; 
+    margin-bottom: 10px;
+    padding: 5px 15px;
+    font-size: 13px;
+    border: 2px solid #2E1402;
+    border-radius: 20px;
+    cursor: pointer;   
+}
+.button button:hover{
+    background-color: #2E1402; 
+    border: 2px solid #2E1402;
+    color: white;
+    box-shadow: 5px 10px 18px #888888;  
+}
+/*BUNDLE OPTION section*/
+.bundle-section fieldset{
+    width: 300px;
+    height: 105px;
+    margin: 169px 0 0 980px;
+    padding: 10px 0 15px 15px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: none;
+    border-radius: 10px;   
+}
+.bundle-section legend{
+    font-weight: bold;
+    font-family: 'Grechen Fuemen';
+    font-size: 29px;   
+}
+.bundle-section label{
+    width: 95px;
+    display: inline-block;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.bundle-section input{
+    cursor: pointer;
+    margin-left: 25px;
+}
+/*BUNDLE MENU section*/
+.bundle-menu fieldset{
+    background-color: rgba(119, 158, 203, 0.52);
+    width: 470px;
+    height: 150px;
+    margin: -260px 0 0 885px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+}
+.bundle-menu legend{
+    font-weight: bold;
+    font-family: 'Grechen Fuemen';
+    font-size: 29px;  
+}
+.bundle-menu label{
+    display: flex;
+    
+}
+.bundle-name2{
+    margin: -90px 0 0 120px;
+}
+.bundle-name3{
+    margin: -90px 0 0 230px;
+}
+.bundle-name4{
+    margin: -90px 0 0 340px;
+}
+

@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Logo Part*/
+.logo-section{
+    text-align: center;
+    margin-right: 90px;
+}
+.logo-section h1{
+    margin: -62px 0 0 250px;
+}
+/*label, by, terminal section*/
+.info {
+    margin-left: 60px;
+}
+/*order & summary form section*/
+.order-form, .summary-form{
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 369px;
+    height: 210px;
+    margin: 10px 0 40px 10px;  
+    border-radius: 10px;  
+}
+.order-form label, .summary-form label{
+    width: 170px;
+    display: inline-block;
+    margin: 15px 0 0 10px;
+    font-size: 16px;
+}
+.order-form input, .summary-form input{
+    margin: 5px;
+    font-size: 16px;
+    width: 160px;
+}
+.summary-header{
+    position: absolute;
+    font-weight: bold;
+    font-family: 'Grechen Fuemen';
+    font-size: 29px;
+    margin: -20px 0 0 30px;
+}
+/*Discount Option section*/
+.discount-section fieldset{
+    width: 340px;
+    height: 105px;
+    margin: -500px 0 0 400px;
+    padding: 10px 0 15px 15px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: none;
+    border-radius: 10px;   
+}
+.discount-section legend{
+    font-weight: bold;
+    font-family: 'Grechen Fuemen';
+    font-size: 29px;   
+}
+.discount-section label{
+    width: 140px;
+    display: inline-block;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.discount-section input{
+    cursor: pointer;
+}
+/*Button section*/
+.button{
+    margin: 20px 415px;
+}
+.button button{
+    width: 100px;
+    color: black;
+    background-color: #D0B8A8; 
+    margin-bottom: 10px;
+    padding: 5px 15px;
+    font-size: 13px;
+    border: 2px solid #2E1402;
+    border-radius: 20px;
+    cursor: pointer;   
+}
+.button button:hover{
+    background-color: #2E1402; 
+    border: none;
+    color: white;
+    box-shadow: 5px 10px 18px #888888;  
+}
+#cancel{
+    margin-left: 50px;
+}
+/*Calculator section*/
+.calculator{
+    background-color: rgba(119, 158, 203, 0.52);
+    width: 310px;
+    height: 238px;
+    margin: 0 0 0 410px;
+    padding-top: 8px;
+    display: inline-block;
+    border-radius: 10px;
+}
+.calculator button{
+    width: 50px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.0);
+    border: none;
+    margin: 0 0 0 18px;
+    padding:  10px 5px;
+    cursor: pointer;
+}
+/*Item Display section*/
+.item-section fieldset{
+    width: 590px;
+    height: 520px;
+    margin: -490px 0 0 760px;
+    padding: 5px 0 15px 15px;
+    border: none;
+    background-color: rgba(60, 111, 60, 0.22);
+    border-radius: 10px;  
+}
+.item-section legend{
+    font-weight: bold;
+    font-family: 'Grechen Fuemen';
+    font-size: 29px;  
+}
+.item-section img{
+    width: 95px;
+    height: 83px;
+    border-radius: 10px;  
+}
+.item-section .product{
+    display: flex;
+    flex-wrap: wrap;
+}
+.product label{
+    margin: 0 0 10px 10px;
+    border: 2px solid white;
+    border-radius: 10px; 
+    cursor: pointer;  
+}
+.product label:hover{
+    border: 2px solid #2E1402;
+    background-color: #2E1402;
+    color: white;
+}
+.product input{
+    visibility: hidden;
+}
+.item-section p{
+    text-align: center;
+    margin-top: -20px;
+    font-family: 'Amaranth';
+    font-size: 16px;
+}

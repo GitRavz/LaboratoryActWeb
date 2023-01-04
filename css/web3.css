@@ -1,0 +1,162 @@
+
+.logoname {
+    font: italic bold 30px "Times New Roman", serif;
+    margin: -55px 0 0 95px;
+    font-size: 35px;
+}
+
+.info {
+    margin-left: 90px;
+}
+
+.order-container {
+    background-color:rgba(255, 255, 255, 0.4);
+    width: 365px;
+    height: 320px;
+    padding: 15px 0 0 15px;
+}
+
+#discountAmount {
+    margin-left: 15px;
+    width: 200px;
+}
+#discountedAmount {
+    width: 200px;
+}
+
+#price {
+    margin-left: 97px;
+    width: 200px;
+}
+
+#quantity {
+    margin-left: 75px;
+    width: 200px;
+}
+
+#summary {
+    margin-left: 20px;
+    width: 201px;
+}
+
+
+.button {
+    background-color: #A27B5C; 
+    padding: 5px 15px;
+    font-size: 13px;
+    border-radius: 10px;
+    cursor: pointer;  
+}
+.button:hover{
+    background-color: #2E1402; 
+    color: white;
+    
+}
+.summary-container {
+    background-color:rgba(255, 255, 255, 0.4);
+    width: 365px;
+    height: 140px;
+    padding: 15px 0 0 15px;
+}
+
+#totalQuantity {
+    margin-left: 75px;
+    width: 150px;
+}
+#totalDiscountAmount {
+    margin-left: 30px;
+    width: 150px;
+}
+
+#totalDiscountedAmount {
+    width: 150px;
+}
+
+#summary {
+    margin: -170px 0 0 20px;
+}
+
+.calculateform {
+    text-align:center;
+    background-color:rgba(255, 255, 255, 0.4);
+    width: 330px;
+    height: 490px;
+    padding: 10px 5px;
+    margin: -383px 50px 0 390px;
+}
+
+.whitespace {
+    background: white;
+    height: 50px;
+    width: 310px;
+    margin: -15px 10px;
+}
+
+.enterbutton {
+    height: 200px;
+    width: 70px;
+    margin: 50px 400px 0 5px;
+    background-color: #A27B5C; 
+}
+
+.ewanbutton {
+    height: 30px;
+    width: 50px;
+    background: #B09B71;
+    margin-left: 9px;
+}
+
+.table3box {
+    margin: -190px -68px 0 0;
+}
+
+.ewanbutton1 {
+    height: 30px;
+    width: 115px;
+    background: #B09B71;
+    margin-left: 10px;
+}
+
+
+.item-container {
+    height: 550px;
+    width: 595px;
+    border:2px solid rgba(255, 255, 255, 0.4);
+    margin: -530px 0 0 750px;
+    
+}
+
+.container2{
+    display: flex;
+}
+
+.container2 .para{
+    font-family: 'Amaranth';
+    margin: -5px 0 0 0;
+    text-align: center;
+}
+.item{
+    border: 2px solid white;
+    margin: 5px 0 10px 10px;
+    cursor: pointer;
+}
+.item:hover{
+    border: 2px solid #2E1402;
+}
+.item img{
+    width: 103px;
+    height: 95px;
+    
+}
+/*
+.item-section{
+    border: 2px solid black;
+    display: flex;
+}
+
+.item-section img{
+    width: 100px;
+    height: 100px;
+}
+
+

@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #D0B8A8;
+}
+.samForm{
+    padding-top: 40px;
+}
+.header1{
+    text-align: center;
+    margin-top: 30px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin: 20px 80px;
+}
+.pics{
+    cursor: pointer;
+}
+.sam{
+    margin-bottom: 10px;
+    width: 500px;
+    cursor: pointer;
+}
+.form1{
+    padding: 6px;
+}
+.btn{
+   display: flex;
+   margin-left: 50px;
+   padding: 8px;
+   border-radius: 10px;
+   cursor: pointer;
+   background-color:  #A27B5C;
+}
+.btn:hover{
+    background-color: #A27B5C;
+    color: white;
+}
+.form2{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 40px;
+}
+.set{ 
+    padding: 15px;
+    margin: 5px 6px 30px 0;
+}
+.sam1{
+    width: 200px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.field{
+    margin-top: 20px;
+}
+
+/* button */
+.btn2{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.but{
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #A27B5C;
+}
+.but:hover{
+    background-color: #A27B5C;
+    color: white;
+}
